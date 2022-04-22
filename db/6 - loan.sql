@@ -14,7 +14,7 @@ CREATE TABLE loan(
     FOREIGN KEY (book_id)
         REFERENCES book(id),
     FOREIGN KEY (reader_id)
-        REFERENCES user_library(id),
+        REFERENCES "user"(id),
     FOREIGN KEY (librarian_id)
-        REFERENCES user_library(id)
+        REFERENCES "user"(id)
 );

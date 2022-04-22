@@ -1,4 +1,4 @@
-CREATE TABLE user_library(
+CREATE TABLE "user"(
     id INT PRIMARY KEY,
     library_id INT,
     name VARCHAR(255) NOT NULL,
@@ -13,3 +13,12 @@ CREATE TABLE user_library(
     FOREIGN KEY (library_id)
         REFERENCES library(id)
 );
+
+/*
+drop table loan;
+drop table "user";
+drop table stock;
+drop table book;
+drop table adress;
+drop table library;
+*/
