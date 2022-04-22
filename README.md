@@ -7,8 +7,8 @@ Será possível visualizar os atrasos em devolucões de livros, qual leitor tem 
 
 ### Features
 
-- [] Estrutura do banco de dados.
-- [] Estrutura de pastas do back-end com NEST.
+- [x] Estrutura do banco de dados.
+- [x] Estrutura de pastas do back-end com NEST.
 - [] Mapear todas as funcionalidades do banco para o NEST.
 - [] Roteamento para as funcionalidades.
 - [] Autentificação de usuário.
