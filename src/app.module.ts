@@ -6,13 +6,18 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { LibrariesModule } from './libraries/libraries.module';
 import { AdressesModule } from './adresses/adresses.module';
 import { UsersModule } from './users/users.module';
+import { BooksModule } from './books/books.module';
+import { StocksModule } from './stocks/stocks.module';
 
 @Module({
   imports: [
     ConfigModule.forRoot(), 
     TypeOrmModule.forRoot(), 
     LibrariesModule, 
-    AdressesModule, UsersModule
+    AdressesModule, 
+    UsersModule, 
+    BooksModule, 
+    StocksModule
   ],
   controllers: [AppController],
   providers: [AppService],
